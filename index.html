@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Lê Bảo Hân</title>
+<style>
+    /* CSS giúp trang web đẹp, gọn gàng và hình ảnh không bị lỗi */
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+    header { background-color: #2c3e50; color: #fff; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1.5em; font-weight: bold; }
+    nav a { color: #fff; text-decoration: none; margin-left: 15px; font-weight: 500; }
+    nav a:hover { text-decoration: underline; color: #3498db; }
+    .hero { background-color: #34495e; color: #fff; text-align: center; padding: 40px 20px; }
+    .container { max-width: 800px; margin: 20px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    section { margin-bottom: 30px; }
+    h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+    
+    /* Căn chỉnh hình ảnh để luôn đẹp trên mọi thiết bị */
+    img { max-width: 100%; height: auto; border-radius: 8px; margin-top: 10px; margin-bottom: 10px; }
+    .profile-img { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; display: block; margin: 0 auto 15px; border: 4px solid #3498db; }
+    
+    form { background: #eef2f3; padding: 20px; border-radius: 8px; }
+    input[type="text"], textarea { width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    button { background-color: #3498db; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 1em; }
+    button:hover { background-color: #2980b9; }
+    footer { text-align: center; padding: 20px; background-color: #2c3e50; color: #fff; margin-top: 20px; }
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">B.HÂN</div>
+<nav>
+<a href="#about">Về tôi</a>
+<a href="#edu">Học vấn</a>
+<a href="#projects">Hoạt động</a>
+<a href="#contact">Liên hệ</a>
+<a href="#comment">Bình luận</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>LÊ BẢO HÂN</h1>
+<p>Lớp 11B4 – Trường THPT Tôn Đức Thắng</p>
+<p>Định hướng: Học tập tốt và phát triển bản thân</p>
+</section>
+
+<div class="container">
+
+<section id="about">
+<h2>Tôi là ai?</h2>
+<img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Ảnh đại diện Bảo Hân" class="profile-img">
+
+<p>
+Xin chào, mình là <b>Lê Bảo Hân</b>. 
+Hiện mình đang học lớp 11B4 tại <b>Trường THPT Tôn Đức Thắng</b>. 
+Mình là người thân thiện, thích học hỏi và luôn cố gắng hoàn thiện bản thân mỗi ngày.
+</p>
+
+<p>
+Ngoài việc học, mình thích tìm hiểu những điều mới, tham gia các hoạt động của lớp 
+và mong muốn tạo ra nhiều kỷ niệm đẹp trong thời gian học cấp 3.
+</p>
+</section>
+
+<section id="edu">
+<h2>Học vấn & Kỹ năng</h2>
+<p>Học sinh lớp 11B4 - Trường THPT Tôn Đức Thắng.</p>
+<p>
+Kỹ năng: làm việc nhóm, giao tiếp, sáng tạo nội dung và tham gia các hoạt động tập thể.
+</p>
+</section>
+
+<section id="projects">
+<h2>Hoạt động</h2>
+
+<p>
+<b>1. Hoạt động lớp:</b> Tham gia các hoạt động phong trào và hỗ trợ bạn bè trong học tập.
+</p>
+<img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Hoạt động tập thể">
+
+<p>
+<b>2. Phát triển bản thân:</b> Luôn cố gắng học hỏi thêm các kỹ năng mới và nâng cao kiến thức mỗi ngày.
+</p>
+
+</section>
+
+<section id="contact">
+<h2>Liên hệ</h2>
+
+<ul>
+<li><b>Số điện thoại:</b> 0123 456 789</li>
+<li><b>Gmail:</b> baohan@example.com</li>
+<li><b>Địa chỉ:</b> Mỹ Trạch, Khánh Hòa</li>
+</ul>
+
+</section>
+
+<section id="comment">
+<h2>Bình luận</h2>
+
+<form>
+<label>Tên của bạn:</label><br>
+<input type="text" placeholder="Nhập tên"><br><br>
+
+<label>Nội dung bình luận:</label><br>
+<textarea rows="4" placeholder="Nhập bình luận..."></textarea><br><br>
+
+<button type="submit">Gửi bình luận</button>
+</form>
+
+</section>
+
+</div>
+
+<footer>
+<p>© 2026 Lê Bảo Hân. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
